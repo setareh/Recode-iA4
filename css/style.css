@@ -1,6 +1,9 @@
 body{
 	background:#fdfdfd none repeat scroll 0 0;
+	font-family:"Merriweather", "Georgia", serif;
+	color:#222;
 	font-size:1.9rem;
+	line-height:3.5rem;
 }
 .logo{
 	margin: 6rem auto;
@@ -10,3 +13,42 @@ body{
 	width:100px;
 	height:50px;;
 }
+
+.wrapper{
+	width:730px;
+	margin:9rem auto;
+}
+.box{
+	margin-bottom:3rem;
+}
+.title{
+	text-align:center;
+	margin:9rem 0 2rem 0;
+	font-size:2.1rem;
+}
+.text-box a, .sub-title ,.text-box, .more, .text-box-italic, .text-box-italic a, .navigation li  a{
+	font-family:"Merriweather", "Georgia", serif;
+	color:#222;
+}
+.text-box a:hover, .sub-title:hover, .text-box:hover, .more:hover , .text-box-italic a:hover{
+	color:#999;
+}
+.sub-title, .text-box ,.navigation li a{
+	text-decoration:none;
+}
+footer{
+	width:730px;
+	margin:0 auto;
+	text-align:center;
+}
+.navigation{
+	list-style-type:none;
+	display:inline-block
+}
+.navigation li{
+	float:left;
+	padding-right:3rem;
+}
+.navigation li  a:hover{
+	text-decoration:underline;
+ }
