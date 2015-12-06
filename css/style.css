@@ -1,0 +1,12 @@
+body{
+	background:#fdfdfd none repeat scroll 0 0;
+	font-size:1.9rem;
+}
+.logo{
+	margin: 6rem auto;
+	text-align:center;
+}
+.logo-img{
+	width:100px;
+	height:50px;;
+}
