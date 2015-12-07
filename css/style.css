@@ -36,14 +36,13 @@ body{
 .sub-title, .text-box ,.navigation li a{
 	text-decoration:none;
 }
-footer{
-	width:730px;
+footer{	
 	margin:0 auto;
 	text-align:center;
 }
 .navigation{
 	list-style-type:none;
-	display:inline-block
+	display:inline-block;
 }
 .navigation li{
 	float:left;
