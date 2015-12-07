@@ -39,6 +39,7 @@ body{
 footer{	
 	margin:0 auto;
 	text-align:center;
+	margin-top:6rem;
 }
 .navigation{
 	list-style-type:none;
