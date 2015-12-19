@@ -54,7 +54,7 @@ footer{
 	float:left;
 	padding-right:3rem;
 }
-.navigation li  a:hover, .navigation li  a:active{
+.navigation li  a:hover, .navigation li  a:active {
 	text-decoration:underline;
  }
  
