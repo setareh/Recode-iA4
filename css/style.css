@@ -1,4 +1,4 @@
-body{
+body,p{
 	background:#fdfdfd none repeat scroll 0 0;
 	font-family:"raleway" !important;
 	color:#222;
@@ -54,7 +54,7 @@ footer{
 	float:left;
 	padding-right:3rem;
 }
-.navigation li  a:hover{
+.navigation li  a:hover, .navigation li  a:active{
 	text-decoration:underline;
  }
  
