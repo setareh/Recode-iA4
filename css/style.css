@@ -27,11 +27,11 @@ body{
 	font-size:2.2rem;
 	
 }
-.text-box a, .sub-title ,.text-box, .more, .text-box-italic, .text-box-italic a, .navigation li  a{
+.text-box a, .sub-title ,.text-box, .more, .text-box-italic, .text-box-italic a, .navigation li  a,a{
 	font-family:"raleway" !important;
 	color:#222;
 }
-.text-box a:hover, .sub-title:hover, .text-box:hover, .more:hover , .text-box-italic a:hover{
+.text-box a:hover, .sub-title:hover, .text-box:hover, .more:hover , .text-box-italic a:hover, a:hover{
 	color:#999;
 }
 .sub-title{
@@ -56,4 +56,9 @@ footer{
 }
 .navigation li  a:hover{
 	text-decoration:underline;
+ }
+ 
+ /*-----------About page CSS-----------*/
+ .speech-box{
+	margin:4rem 4.5rem;
  }
