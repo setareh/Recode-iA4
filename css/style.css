@@ -2,7 +2,7 @@ body,p{
 	background:#fdfdfd none repeat scroll 0 0;
 	font-family:"raleway" !important;
 	color:#222;
-	font-size:2.3rem;
+	font-size:2rem;
 	line-height:3.5rem;
 }
 .logo{
@@ -24,21 +24,23 @@ body,p{
 .title{
 	text-align:center;
 	margin:9rem 0 2rem 0;
-	font-size:2.2rem;
+	font-size:2rem;
 	
 }
 .text-box a, .sub-title ,.text-box, .more, .text-box-italic, .text-box-italic a, .navigation li  a,a{
 	font-family:"raleway" !important;
 	color:#222;
+	font-size: 2rem;
+	line-height: 2rem;
 }
 .text-box a:hover, .sub-title:hover, .text-box:hover, .more:hover , .text-box-italic a:hover, a:hover{
 	color:#999;
 }
 .sub-title{
-	font-size:2.1rem;
+	font-size:2rem;
 	font-weight:bold;
 }
-.sub-title, .text-box ,.navigation li a{
+.sub-title, .text-box ,.navigation li a,.prt-text{
 	text-decoration:none;
 }
 footer{	
@@ -54,11 +56,21 @@ footer{
 	float:left;
 	padding-right:3rem;
 }
-.navigation li  a:hover, .navigation li  a:active {
-	text-decoration:underline;
+.navigation li  a:hover,.navigation li  a:active {
+	text-decoration:underline !important;
  }
+ 
  
  /*-----------About page CSS-----------*/
  .speech-box{
 	margin:4rem 4.5rem;
+ }
+ /*-----------Portfolio page CSS-------*/
+ .prt-img{
+ 	display: block;
+ 	height: 25rem;
+ 	margin: 0 auto;
+ }
+ .prt-text{
+ 	font-size: 1.6rem;
  }
